@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AssemblySpecialIncentiveDataSet" targetNamespace="http://tempuri.org/AssemblySpecialIncentiveDataSet.xsd" xmlns:mstns="http://tempuri.org/AssemblySpecialIncentiveDataSet.xsd" xmlns="http://tempuri.org/AssemblySpecialIncentiveDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AssemblySpecialIncentiveDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AssemblySpecialIncentiveDataSet" msprop:Generator_UserDSName="AssemblySpecialIncentiveDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AssemblySpecialIncentiveTable" msprop:Generator_TableClassName="AssemblySpecialIncentiveTableDataTable" msprop:Generator_TableVarName="tableAssemblySpecialIncentiveTable" msprop:Generator_TablePropName="AssemblySpecialIncentiveTable" msprop:Generator_RowDeletingName="AssemblySpecialIncentiveTableRowDeleting" msprop:Generator_RowChangingName="AssemblySpecialIncentiveTableRowChanging" msprop:Generator_RowEvHandlerName="AssemblySpecialIncentiveTableRowChangeEventHandler" msprop:Generator_RowDeletedName="AssemblySpecialIncentiveTableRowDeleted" msprop:Generator_UserTableName="AssemblySpecialIncentiveTable" msprop:Generator_RowChangedName="AssemblySpecialIncentiveTableRowChanged" msprop:Generator_RowEvArgName="AssemblySpecialIncentiveTableRowChangeEvent" msprop:Generator_RowClassName="AssemblySpecialIncentiveTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Line" msprop:Generator_ColumnVarNameInTable="columnLine" msprop:Generator_ColumnPropNameInRow="Line" msprop:Generator_ColumnPropNameInTable="LineColumn" msprop:Generator_UserColumnName="Line" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="QuotaTarget" msprop:Generator_ColumnVarNameInTable="columnQuotaTarget" msprop:Generator_ColumnPropNameInRow="QuotaTarget" msprop:Generator_ColumnPropNameInTable="QuotaTargetColumn" msprop:Generator_UserColumnName="QuotaTarget" type="xs:int" minOccurs="0" />
+              <xs:element name="Lacking" msprop:Generator_ColumnVarNameInTable="columnLacking" msprop:Generator_ColumnPropNameInRow="Lacking" msprop:Generator_ColumnPropNameInTable="LackingColumn" msprop:Generator_UserColumnName="Lacking" type="xs:int" minOccurs="0" />
+              <xs:element name="PercentOutput" msprop:Generator_ColumnVarNameInTable="columnPercentOutput" msprop:Generator_ColumnPropNameInRow="PercentOutput" msprop:Generator_ColumnPropNameInTable="PercentOutputColumn" msprop:Generator_UserColumnName="PercentOutput" type="xs:double" minOccurs="0" />
+              <xs:element name="SUPIncentive" msprop:Generator_ColumnVarNameInTable="columnSUPIncentive" msprop:Generator_ColumnPropNameInRow="SUPIncentive" msprop:Generator_ColumnPropNameInTable="SUPIncentiveColumn" msprop:Generator_UserColumnName="SUPIncentive" type="xs:int" minOccurs="0" />
+              <xs:element name="LL23Incentive" msprop:Generator_ColumnVarNameInTable="columnLL23Incentive" msprop:Generator_ColumnPropNameInRow="LL23Incentive" msprop:Generator_ColumnPropNameInTable="LL23IncentiveColumn" msprop:Generator_UserColumnName="LL23Incentive" type="xs:int" minOccurs="0" />
+              <xs:element name="LLT1MECHIncentive" msprop:Generator_ColumnVarNameInTable="columnLLT1MECHIncentive" msprop:Generator_ColumnPropNameInRow="LLT1MECHIncentive" msprop:Generator_ColumnPropNameInTable="LLT1MECHIncentiveColumn" msprop:Generator_UserColumnName="LLT1MECHIncentive" type="xs:int" minOccurs="0" />
+              <xs:element name="WorkerIncentive" msprop:Generator_ColumnVarNameInTable="columnWorkerIncentive" msprop:Generator_ColumnPropNameInRow="WorkerIncentive" msprop:Generator_ColumnPropNameInTable="WorkerIncentiveColumn" msprop:Generator_UserColumnName="WorkerIncentive" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

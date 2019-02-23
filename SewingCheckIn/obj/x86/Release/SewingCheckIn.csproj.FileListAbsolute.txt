@@ -1,0 +1,17 @@
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\bin\Release\SewingCheckIn.exe.config
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\bin\Release\SewingCheckIn.exe
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\bin\Release\SewingCheckIn.pdb
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\App.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\MainWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\Views\LineCheckInReportWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\Views\LineCheckInWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\App.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\MainWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\Views\LineCheckInReportWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\Views\LineCheckInWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\SewingCheckIn_MarkupCompile.cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\SewingCheckIn.g.resources
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\SewingCheckIn.Properties.Resources.resources
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\SewingCheckIn.csproj.GenerateResource.Cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\SewingCheckIn.exe
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Release\SewingCheckIn.pdb

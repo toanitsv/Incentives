@@ -1,0 +1,104 @@
+﻿<Window x:Class="SewingIncentives.Views.ImportAssemblyIncentiveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Import Assembly Incentive" MinHeight="600" MinWidth="1000" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Menu Background="LightBlue" FontSize="14">
+                <MenuItem x:Name="miImport" Header="Import" Click="miImport_Click"/>
+                <MenuItem x:Name="miRevise" Header="Revise" Click="miRevise_Click"/>
+            </Menu>
+        </Grid>
+        <GroupBox x:Name="groupImport" Header="Import Data" BorderBrush="Black" Grid.Row="1" Margin="0,10,0,0" FontSize="14" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnChooseExcelFile" Content="Choose Excel File" Width="150" FontSize="15" Background="Bisque" VerticalAlignment="Bottom" HorizontalAlignment="Left" Click="btnChooseExcelFile_Click"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btnImport" Grid.Row="2" Margin="0,5,0,0" Height="30" MinWidth="150" HorizontalAlignment="Right" Content="Import" FontWeight="Bold" IsEnabled="False" Click="btnImport_Click"/>
+                    <DataGrid Grid.Row="0" x:Name="dgvAssemblyIncentive" AutoGenerateColumns="False" FontSize="14"
+                  AlternatingRowBackground="LightCyan" AlternationCount="2" RowHeaderWidth="10" IsReadOnly="True"
+                  HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray" >
+                        <DataGrid.Resources>
+                            <Style TargetType="{x:Type DataGridCell}">
+                                <Style.Triggers>
+                                    <Trigger Property="DataGridCell.IsSelected" Value="True">
+                                        <Setter Property="Background" Value="RoyalBlue" />
+                                        <Setter Property="Foreground" Value="White" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.Resources>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Pattern No" Width="Auto" Binding="{Binding PatternNo}"/>
+                            <DataGridTextColumn Header="Worker" Width="Auto" Binding="{Binding Worker}"/>
+                            <DataGridTextColumn Header="Shoe Name" Width="Auto" Binding="{Binding ShoeName}"/>
+                            <DataGridTextColumn Header="Efficiency" Width="Auto" Binding="{Binding Efficiency}"/>
+                            <DataGridTextColumn Header="Output" Width="Auto" Binding="{Binding AssemblyOutput}"/>
+                            <DataGridTextColumn Header="Incentive" Width="Auto" Binding="{Binding Incentive}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupRevise" Header="Revise Data" Grid.Row="1" Margin="0,10,0,0" BorderBrush="Black" FontSize="14" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,5,0,10" >
+                    <TextBlock Text="PM: " VerticalAlignment="Bottom" />
+                    <TextBox x:Name="txtPatternNo" BorderBrush="Black" Width="120" Margin="10,0,10,0" TextChanged="txtPatternNo_TextChanged" CharacterCasing="Upper"/>
+                    <Button x:Name="btnSearch" Content="Search By PM" Click="btnSearch_Click" />
+                </StackPanel>
+                <DataGrid Grid.Row="1" x:Name="dgvAssemblyIncentiveRevise" AutoGenerateColumns="False" FontSize="14"
+                  AlternatingRowBackground="LightCyan" AlternationCount="2" RowHeaderWidth="10" IsReadOnly="False"
+                  HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray" CanUserAddRows="False" >
+                    <DataGrid.Resources>
+                        <Style TargetType="{x:Type DataGridCell}">
+                            <Style.Triggers>
+                                <Trigger Property="DataGridCell.IsSelected" Value="True">
+                                    <Setter Property="Background" Value="RoyalBlue" />
+                                    <Setter Property="Foreground" Value="White" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Width="Auto" Binding="{Binding Id}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Pattern No" Width="Auto" IsReadOnly="True" Binding="{Binding PatternNo}"/>
+                        <DataGridTextColumn Header="Worker" Width="Auto" Binding="{Binding Worker}"/>
+                        <DataGridTextColumn Header="Shoe Name" Width="Auto" Binding="{Binding ShoeName}"/>
+                        <DataGridTextColumn Header="Efficiency" Width="Auto" Binding="{Binding Efficiency}"/>
+                        <DataGridTextColumn Header="Output" Width="Auto" Binding="{Binding AssemblyOutput}"/>
+                        <DataGridTextColumn Header="Incentive" Width="Auto" Binding="{Binding Incentive}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Name="btnDelete" Content="Delete" MinWidth="100" IsEnabled="False" Margin="0,5,20,0" Click="btnDelete_Click" FontWeight="Bold" />
+                    <Button x:Name="btnSave" Margin="0,5,0,0" Height="30" MinWidth="150" Content="Save" FontWeight="Bold" IsEnabled="False" Click="btnSave_Click"/>
+                </StackPanel>
+                
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

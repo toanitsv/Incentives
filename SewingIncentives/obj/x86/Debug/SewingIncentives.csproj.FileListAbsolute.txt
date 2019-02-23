@@ -1,0 +1,515 @@
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.exe
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.pdb
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\App.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.exe
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.pdb
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\App.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\MainWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\App.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+D:\Saoviet\Projects\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.exe
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\bin\Debug\SewingIncentives.pdb
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\App.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\bin\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\bin\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\bin\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\bin\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentive.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentive.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentive.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentive.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\bin\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\bin\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\App.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentives.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentive.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentive.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentives.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentive.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentive.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\bin\Debug\SewingIncentives.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\bin\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblySpecialPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblySpecialPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentivesWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentivesWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentiveWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentiveWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentiveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentiveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojAssemblyReference.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\App.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentivesWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentiveWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblySpecialPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentiveWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentivesWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentiveWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblySpecialPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentiveWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\SewingIncentives.exe.config
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\SewingIncentives.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\SewingIncentives.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.CopyComplete
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\SewingIncentives.exe
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\bin\Debug\SewingIncentives.pdb
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.csprojResolveAssemblyReference.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentivesWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentiveWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblySpecialPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentiveWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyReportIncentivesWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblyRequestIncentiveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AssemblySpecialPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\AttendancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeCardIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ChangeWorkerIdWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\DayLeaveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\GroupIncentivePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ImportAssemblyIncentiveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryDetailWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineIncentiveSummaryWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionListPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\OtherPositionPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\ExcessWorkerPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformancePrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LinePerformanceWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\LineSummaryPrintWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\RequestListWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SelectSectionWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\SpecialTransferWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\Views\WorkerLeaveWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.g.resources
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\SewingIncentives.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\RdlCompile.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\RdlCompile.compiled

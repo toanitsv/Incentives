@@ -1,0 +1,102 @@
+﻿<Window x:Class="SewingIncentives.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sewing Incentives"
+        Height="400" Width="800"
+        Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem x:Name="miRequestList" Header="Request List" Visibility="Collapsed" Click="miRequestList_Click"/>
+            <MenuItem Header="File">
+                <MenuItem Header="Report">
+                    <MenuItem x:Name="miExcessWorker" Header="Excess Worker" Click="miExcessWorker_Click"/>
+                    <MenuItem x:Name="miLineSummary" Header="Line Summary" Click="miLineSummary_Click"/>                    
+                    <MenuItem x:Name="miOtherPositionDaily" Header="Other Position Daily" Click="miOtherPositionDaily_Click"/>
+                    <MenuItem x:Name="miOtherPositionMonth" Header="Other Position Summary" Click="miOtherPosition_Click"/>
+                    <MenuItem x:Name="miLineIncentiveSummary" Header="Incentive Summary" Click="miLineIncentiveSummary_Click"/>
+                    <MenuItem x:Name="miGroupIncentive" Header="Group Incentive of Worker" Click="miGroupIncentive_Click"/>
+                    <MenuItem x:Name="miDayLeaveSummary" Header="Worker Leave Summary" Click="miDayLeaveSummary_Click"/>
+                    <MenuItem x:Name="miAssemblyReportIncentives" Header="Assembly Incentive" IsEnabled="False" Click="miAssemblyReportIncentives_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="btnClose" Header="Close" Click="btnClose_Click"/>
+            </MenuItem>
+            <MenuItem Header="Management">
+                <MenuItem x:Name="miLinePerformance" Header="Line Performance" Click="miLinePerformance_Click"/>
+                <MenuItem x:Name="miPregnant" Header="Pregnant List" Click="miPregnant_Click"/>
+                <MenuItem x:Name="miSpecialTransfer" Header="Special Transfer" Click="miSpecialTransfer_Click"/>
+                <MenuItem x:Name="miChangeCardId" Header="Change ID Card" Click="miChangeCardId_Click"/>
+                <MenuItem x:Name="miChangeWorkerNo" Foreground="Red" Header="Change Worker No" Click="miChangeWorkerNo_Click"/>
+            </MenuItem>
+            <MenuItem Header="Others">
+                <MenuItem x:Name="miAttendance" Header="Attendance" Click="miAttendance_Click"/>
+            </MenuItem>
+            <MenuItem Header="Import">
+                <MenuItem x:Name="miStandardIncentive" Header="Standard Incentive" Click="miStandardIncentive_Click"/>
+            </MenuItem>
+            <MenuItem Header="Version" x:Name="miVersion" Click="miVersion_Click">
+            </MenuItem>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.ColumnSpan="2" Margin="0,5,0,0" Text="WORKER LOG-IN" TextAlignment="Center" FontWeight="Bold"/>
+            <Grid Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox x:Name="chbOtherDate" Content="Other Date" VerticalAlignment="Center" Checked="chbOtherDate_Checked" Unchecked="chbOtherDate_Unchecked" />
+                <DatePicker x:Name="dpOtherDate" Grid.Column="1" Margin="5,0,0,0" SelectedDate="1/1/2016" Visibility="Collapsed"/>
+            </Grid>
+            <Grid x:Name="gridLine" Grid.Row="1" Margin="0,5,5,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <DataGrid x:Name="dgWorkerLogin" Grid.Column="1" Grid.Row="1" Margin="5,5,0,0" AutoGenerateColumns="False" AlternatingRowBackground="LightGray" AlternationCount="2" FrozenColumnCount="2" IsReadOnly="True"
+                      HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray"
+                      >
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridCell}">
+                        <Style.Triggers>
+                            <Trigger Property="DataGridCell.IsSelected" Value="True">
+                                <Setter Property="Background" Value="RoyalBlue" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="FontWeight" Value="Bold" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="Auto" Header="Rfid #" Binding="{Binding CardId}" FontWeight="Bold"/>
+                    <DataGridTextColumn Width="Auto" Header="ID #" Binding="{Binding WorkerId}"/>
+                    <DataGridTextColumn Width="Auto" Header="Name" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Width="Auto" Header="Line" Binding="{Binding Line}"/>
+                    <DataGridTextColumn Width="Auto" Header="Position" Binding="{Binding Position}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Grid Grid.Column="1" Grid.Row="2" Margin="5,5,0,0" Height="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnLogin" Width="125" Content="Log-in to LINE .." FontWeight="Bold" Background="RoyalBlue" Foreground="White" IsDefault="True" IsEnabled="False" Click="btnLogin_Click" />
+                <TextBox x:Name="txtCardId" Grid.Column="1" Margin="5,0,0,0" FontSize="27" Foreground="Red" TextAlignment="Center" IsEnabled="False"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

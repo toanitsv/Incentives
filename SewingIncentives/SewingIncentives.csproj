@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A79285C-2C6C-4938-B255-C1C3D169C390}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SewingIncentives</RootNamespace>
+    <AssemblyName>SewingIncentives</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MoneyGraph.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\PhucNguyen\Desktop\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AssemblyIncentiveController.cs" />
+    <Compile Include="Controllers\CieControlIncentiveController.cs" />
+    <Compile Include="Controllers\SpecialTransferController.cs" />
+    <Compile Include="Controllers\HolidayController.cs" />
+    <Compile Include="Controllers\OtherController.cs" />
+    <Compile Include="Controllers\WorkerLeaveController.cs" />
+    <Compile Include="Controllers\WorkerShiftController.cs" />
+    <Compile Include="Controllers\WorkTimeInfoController.cs" />
+    <Compile Include="DataSets\AssemblyIncentiveStatisticsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyIncentiveStatisticsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AssemblySpecialIncentiveDataSet.cs">
+      <DependentUpon>AssemblySpecialIncentiveDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\AssemblySpecialIncentiveDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblySpecialIncentiveDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AttendanceDataSet.cs">
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AttendanceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\GroupIncentiveDataSet.cs">
+      <DependentUpon>GroupIncentiveDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\GroupIncentiveDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GroupIncentiveDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\IncentiveGradeSummaryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IncentiveGradeSummaryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\LineIncentiveSummaryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LineIncentiveSummaryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\OtherPositionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherPositionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\OtherPositionListDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherPositionListDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\AssemblyHelper.cs" />
+    <Compile Include="Helpers\GetString.cs" />
+    <Compile Include="Models\AdjustTimeInModel.cs" />
+    <Compile Include="Models\AssemblyIncentiveModel.cs" />
+    <Compile Include="Models\AssemblySpecialIncentiveModel.cs" />
+    <Compile Include="Models\CieControlIncentiveModel.cs" />
+    <Compile Include="Models\HolidayModel.cs" />
+    <Compile Include="Models\IncentiveGradeModel.cs" />
+    <Compile Include="Models\OtherPositionModel.cs" />
+    <Compile Include="Models\PositionModel.cs" />
+    <Compile Include="Models\SpecialTransferModel.cs" />
+    <Compile Include="Models\SpecialTransferTypeModel.cs" />
+    <Compile Include="Models\TimeoutModel.cs" />
+    <Compile Include="Models\WorkerLeaveModel.cs" />
+    <Compile Include="Models\WorkerShiftModel.cs" />
+    <Compile Include="Models\WorkTimeInfoModel.cs" />
+    <Compile Include="ViewModels\DayLeaveSummaryViewModel.cs" />
+    <Compile Include="ViewModels\LineIncentiveSummaryDetailViewModel.cs" />
+    <Compile Include="ViewModels\SpecialTransferViewModel.cs" />
+    <Compile Include="ViewModels\WorkerLeaveViewModel.cs" />
+    <Compile Include="Views\AssemblyReportIncentivesWindow.xaml.cs">
+      <DependentUpon>AssemblyReportIncentivesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AssemblyRequestIncentiveWindow.xaml.cs">
+      <DependentUpon>AssemblyRequestIncentiveWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AssemblySpecialPrintWindow.xaml.cs">
+      <DependentUpon>AssemblySpecialPrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendanceWindow.xaml.cs">
+      <DependentUpon>AttendanceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendancePrintWindow.xaml.cs">
+      <DependentUpon>AttendancePrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeCardIdWindow.xaml.cs">
+      <DependentUpon>ChangeCardIdWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeWorkerIdWindow.xaml.cs">
+      <DependentUpon>ChangeWorkerIdWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DayLeaveSummaryWindow.xaml.cs">
+      <DependentUpon>DayLeaveSummaryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GroupIncentivePrintWindow.xaml.cs">
+      <DependentUpon>GroupIncentivePrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImportAssemblyIncentiveWindow.xaml.cs">
+      <DependentUpon>ImportAssemblyIncentiveWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LineIncentiveSummaryDetailWindow.xaml.cs">
+      <DependentUpon>LineIncentiveSummaryDetailWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LineIncentiveSummaryPrintWindow.xaml.cs">
+      <DependentUpon>LineIncentiveSummaryPrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LineIncentiveSummaryWindow.xaml.cs">
+      <DependentUpon>LineIncentiveSummaryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OtherPositionListPrintWindow.xaml.cs">
+      <DependentUpon>OtherPositionListPrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OtherPositionPrintWindow.xaml.cs">
+      <DependentUpon>OtherPositionPrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RequestListWindow.xaml.cs">
+      <DependentUpon>RequestListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SelectSectionWindow.xaml.cs">
+      <DependentUpon>SelectSectionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SpecialTransferWindow.xaml.cs">
+      <DependentUpon>SpecialTransferWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkerLeaveWindow.xaml.cs">
+      <DependentUpon>WorkerLeaveWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Controllers\LineController.cs" />
+    <Compile Include="Controllers\LinePerformanceController.cs" />
+    <Compile Include="Controllers\LinePerformanceDetailController.cs" />
+    <Compile Include="Controllers\SectionController.cs" />
+    <Compile Include="DataSets\ExcessWorkerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExcessWorkerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\LinePerformanceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinePerformanceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\LineSummaryDataSet.cs">
+      <DependentUpon>LineSummaryDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\LineSummaryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LineSummaryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CalculateHelper.cs" />
+    <Compile Include="Helpers\ConvertHelper.cs" />
+    <Compile Include="Models\LineModel.cs" />
+    <Compile Include="Models\LinePerformanceDetailModel.cs" />
+    <Compile Include="Models\LinePerformanceModel.cs" />
+    <Compile Include="Models\SectionModel.cs" />
+    <Compile Include="Models\WorkerFilterModel.cs" />
+    <Compile Include="ViewModels\LinePerformanceViewModel.cs" />
+    <Compile Include="ViewModels\WorkerLoginViewModel.cs" />
+    <Compile Include="Views\ExcessWorkerPrintWindow.xaml.cs">
+      <DependentUpon>ExcessWorkerPrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LinePerformancePrintWindow.xaml.cs">
+      <DependentUpon>LinePerformancePrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LinePerformanceWindow.xaml.cs">
+      <DependentUpon>LinePerformanceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LineSummaryPrintWindow.xaml.cs">
+      <DependentUpon>LineSummaryPrintWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\PersonalController.cs" />
+    <Compile Include="Controllers\SourceController.cs" />
+    <Compile Include="Controllers\WorkerLoginController.cs" />
+    <Compile Include="Entities\SaovietCheckInEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SaovietCheckInEntity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\AssemblyReportIncentivesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AssemblyRequestIncentiveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AssemblySpecialPrintWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AttendanceWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AttendancePrintWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ChangeCardIdWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChangeWorkerIdWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DayLeaveSummaryWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\GroupIncentivePrintWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ImportAssemblyIncentiveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LineIncentiveSummaryDetailWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LineIncentiveSummaryPrintWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\LineIncentiveSummaryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OtherPositionListPrintWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OtherPositionPrintWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ExcessWorkerPrintWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LinePerformancePrintWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LinePerformanceWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LineSummaryPrintWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RequestListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SelectSectionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SpecialTransferWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkerLeaveWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\PersonalModel.cs" />
+    <Compile Include="Models\SourceModel.cs" />
+    <Compile Include="Models\WorkerLoginModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AssemblyIncentiveReport.rdlc" />
+    <EmbeddedResource Include="Reports\AssemblySpecialIncentiveReport.rdlc" />
+    <EmbeddedResource Include="Reports\AttendanceReport.rdlc" />
+    <EmbeddedResource Include="Reports\OtherPositionListReport.rdlc" />
+    <EmbeddedResource Include="Reports\GroupIncentiveReport.rdlc" />
+    <EmbeddedResource Include="Reports\OtherPositionReport.rdlc" />
+    <EmbeddedResource Include="Reports\LineIncentiveSummaryReport.rdlc" />
+    <EmbeddedResource Include="Reports\ExcessWorkerReport.rdlc" />
+    <EmbeddedResource Include="Reports\LinePerformanceReport.rdlc" />
+    <EmbeddedResource Include="Reports\LineSumaryReport.rdlc" />
+    <EntityDeploy Include="Entities\SaovietCheckInEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SaovietCheckInEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\AssemblyIncentiveStatisticsDataSet.xsc">
+      <DependentUpon>AssemblyIncentiveStatisticsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AssemblyIncentiveStatisticsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AssemblyIncentiveStatisticsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AssemblyIncentiveStatisticsDataSet.xss">
+      <DependentUpon>AssemblyIncentiveStatisticsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AssemblySpecialIncentiveDataSet.xsc">
+      <DependentUpon>AssemblySpecialIncentiveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AssemblySpecialIncentiveDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AssemblySpecialIncentiveDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AssemblySpecialIncentiveDataSet.xss">
+      <DependentUpon>AssemblySpecialIncentiveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AttendanceDataSet.xsc">
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AttendanceDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AttendanceDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AttendanceDataSet.xss">
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ExcessWorkerDataSet.xsc">
+      <DependentUpon>ExcessWorkerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ExcessWorkerDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExcessWorkerDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ExcessWorkerDataSet.xss">
+      <DependentUpon>ExcessWorkerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\GroupIncentiveDataSet.xsc">
+      <DependentUpon>GroupIncentiveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\GroupIncentiveDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GroupIncentiveDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\GroupIncentiveDataSet.xss">
+      <DependentUpon>GroupIncentiveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\IncentiveGradeSummaryDataSet.xsc">
+      <DependentUpon>IncentiveGradeSummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\IncentiveGradeSummaryDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IncentiveGradeSummaryDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\IncentiveGradeSummaryDataSet.xss">
+      <DependentUpon>IncentiveGradeSummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\LineIncentiveSummaryDataSet.xsc">
+      <DependentUpon>LineIncentiveSummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\LineIncentiveSummaryDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LineIncentiveSummaryDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\LineIncentiveSummaryDataSet.xss">
+      <DependentUpon>LineIncentiveSummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\LinePerformanceDataSet.xsc">
+      <DependentUpon>LinePerformanceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\LinePerformanceDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LinePerformanceDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\LinePerformanceDataSet.xss">
+      <DependentUpon>LinePerformanceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\LineSummaryDataSet.xsc">
+      <DependentUpon>LineSummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\LineSummaryDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LineSummaryDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\LineSummaryDataSet.xss">
+      <DependentUpon>LineSummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\OtherPositionDataSet.xsc">
+      <DependentUpon>OtherPositionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\OtherPositionDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtherPositionDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\OtherPositionDataSet.xss">
+      <DependentUpon>OtherPositionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\OtherPositionListDataSet.xsc">
+      <DependentUpon>OtherPositionListDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\OtherPositionListDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtherPositionListDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\OtherPositionListDataSet.xss">
+      <DependentUpon>OtherPositionListDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblyIncentiveStatistics+AssemblyIncentiveDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblyIncentiveStatistics+AssemblyIncentiveRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblyIncentiveStatistics+AssemblyIncentiveRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblyIncentiveStatistics+AssemblyIncentiveRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblyIncentiveStatistics.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblySpecialIncentiveDataSet+AssemblySpecialIncentiveTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblySpecialIncentiveDataSet+AssemblySpecialIncentiveTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblySpecialIncentiveDataSet+AssemblySpecialIncentiveTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblySpecialIncentiveDataSet+AssemblySpecialIncentiveTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AssemblySpecialIncentiveDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AttendanceDataSet+AttendanceTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AttendanceDataSet+AttendanceTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AttendanceDataSet+AttendanceTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AttendanceDataSet+AttendanceTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.AttendanceDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.ExcessWorkerDataSet+ExcessWorkerTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.ExcessWorkerDataSet+ExcessWorkerTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.ExcessWorkerDataSet+ExcessWorkerTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.ExcessWorkerDataSet+ExcessWorkerTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.ExcessWorkerDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.GroupIncentiveDataSet+GroupIncentiveTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.GroupIncentiveDataSet+GroupIncentiveTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.GroupIncentiveDataSet+GroupIncentiveTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.GroupIncentiveDataSet+GroupIncentiveTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.GroupIncentiveDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.IncentiveGradeSummaryDataSet+IncentiveGradeSummaryTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.IncentiveGradeSummaryDataSet+IncentiveGradeSummaryTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.IncentiveGradeSummaryDataSet+IncentiveGradeSummaryTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.IncentiveGradeSummaryDataSet+IncentiveGradeSummaryTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.IncentiveGradeSummaryDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineIncentiveSummaryDataSet+LineIncentiveSummaryTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineIncentiveSummaryDataSet+LineIncentiveSummaryTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineIncentiveSummaryDataSet+LineIncentiveSummaryTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineIncentiveSummaryDataSet+LineIncentiveSummaryTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineIncentiveSummaryDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineIncentiveSummaryDataSet_1.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LinePerformanceDataSet+LinePerformanceTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LinePerformanceDataSet+LinePerformanceTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LinePerformanceDataSet+LinePerformanceTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LinePerformanceDataSet+LinePerformanceTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LinePerformanceDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineSummaryDataSet+LineSummaryTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineSummaryDataSet+LineSummaryTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineSummaryDataSet+LineSummaryTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineSummaryDataSet+LineSummaryTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.LineSummaryDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionDataSet+OtherPositionTableDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionDataSet+OtherPositionTableRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionDataSet+OtherPositionTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionDataSet+OtherPositionTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionDataSet.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionListDataSet+OtherPositionListDataTable.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionListDataSet+OtherPositionListRow.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionListDataSet+OtherPositionListRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionListDataSet+OtherPositionListRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\SewingIncentives.DataSets.OtherPositionListDataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MoneyGraph.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

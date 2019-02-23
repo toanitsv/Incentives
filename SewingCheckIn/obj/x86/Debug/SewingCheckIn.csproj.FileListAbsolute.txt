@@ -1,0 +1,140 @@
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\App.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+C:\Users\IT02\Documents\Visual Studio 2010\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\App.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\App.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+D:\Saoviet\Projects\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\App.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+C:\Users\IT02\Desktop\SWO\Sewing Office Solution\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+E:\SV PROJECT\SWO\Assembly\UpdateWorkHrs\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+E:\SV PROJECT\SWO\Assembly\AutoCalculateIncentive\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csprojResolveAssemblyReference.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\App.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csprojResolveAssemblyReference.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\App.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\App.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.Cache
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+E:\SV PROJECT\SWO\Assembly\1.18.03.14\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\bin\Debug\SewingCheckIn.exe.config
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\bin\Debug\SewingCheckIn.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\bin\Debug\SewingCheckIn.pdb
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csprojAssemblyReference.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\App.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.baml
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\Views\LineCheckInReportWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\Views\LineCheckInWindow.g.cs
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn_MarkupCompile.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.g.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.Properties.Resources.resources
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.GenerateResource.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.exe
+F:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingCheckIn\obj\x86\Debug\SewingCheckIn.pdb

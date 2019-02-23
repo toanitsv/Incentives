@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LineSummaryDataSet" targetNamespace="http://tempuri.org/LineSummaryDataSet.xsd" xmlns:mstns="http://tempuri.org/LineSummaryDataSet.xsd" xmlns="http://tempuri.org/LineSummaryDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LineSummaryDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LineSummaryDataSet" msprop:Generator_UserDSName="LineSummaryDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LineSummaryTable" msprop:Generator_TableClassName="LineSummaryTableDataTable" msprop:Generator_TableVarName="tableLineSummaryTable" msprop:Generator_TablePropName="LineSummaryTable" msprop:Generator_RowDeletingName="LineSummaryTableRowDeleting" msprop:Generator_RowChangingName="LineSummaryTableRowChanging" msprop:Generator_RowEvHandlerName="LineSummaryTableRowChangeEventHandler" msprop:Generator_RowDeletedName="LineSummaryTableRowDeleted" msprop:Generator_UserTableName="LineSummaryTable" msprop:Generator_RowChangedName="LineSummaryTableRowChanged" msprop:Generator_RowEvArgName="LineSummaryTableRowChangeEvent" msprop:Generator_RowClassName="LineSummaryTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Line" msprop:Generator_ColumnVarNameInTable="columnLine" msprop:Generator_ColumnPropNameInRow="Line" msprop:Generator_ColumnPropNameInTable="LineColumn" msprop:Generator_UserColumnName="Line" type="xs:string" minOccurs="0" />
+              <xs:element name="CountTotalMP" msprop:Generator_ColumnVarNameInTable="columnCountTotalMP" msprop:Generator_ColumnPropNameInRow="CountTotalMP" msprop:Generator_ColumnPropNameInTable="CountTotalMPColumn" msprop:Generator_UserColumnName="CountTotalMP" type="xs:string" minOccurs="0" />
+              <xs:element name="CountTotalWorker" msprop:Generator_ColumnVarNameInTable="columnCountTotalWorker" msprop:Generator_ColumnPropNameInRow="CountTotalWorker" msprop:Generator_ColumnPropNameInTable="CountTotalWorkerColumn" msprop:Generator_UserColumnName="CountTotalWorker" type="xs:string" minOccurs="0" />
+              <xs:element name="CountNewWorker" msprop:Generator_ColumnVarNameInTable="columnCountNewWorker" msprop:Generator_ColumnPropNameInRow="CountNewWorker" msprop:Generator_ColumnPropNameInTable="CountNewWorkerColumn" msprop:Generator_UserColumnName="CountNewWorker" type="xs:string" minOccurs="0" />
+              <xs:element name="Count1Month" msprop:Generator_ColumnVarNameInTable="columnCount1Month" msprop:Generator_ColumnPropNameInRow="Count1Month" msprop:Generator_ColumnPropNameInTable="Count1MonthColumn" msprop:Generator_UserColumnName="Count1Month" type="xs:string" minOccurs="0" />
+              <xs:element name="Count2Months" msprop:Generator_ColumnVarNameInTable="columnCount2Months" msprop:Generator_ColumnPropNameInRow="Count2Months" msprop:Generator_ColumnPropNameInTable="Count2MonthsColumn" msprop:Generator_UserColumnName="Count2Months" type="xs:string" minOccurs="0" />
+              <xs:element name="CountOldWorker" msprop:Generator_ColumnVarNameInTable="columnCountOldWorker" msprop:Generator_ColumnPropNameInRow="CountOldWorker" msprop:Generator_ColumnPropNameInTable="CountOldWorkerColumn" msprop:Generator_UserColumnName="CountOldWorker" type="xs:string" minOccurs="0" />
+              <xs:element name="CountSUP" msprop:Generator_ColumnVarNameInTable="columnCountSUP" msprop:Generator_ColumnPropNameInRow="CountSUP" msprop:Generator_ColumnPropNameInTable="CountSUPColumn" msprop:Generator_UserColumnName="CountSUP" type="xs:string" minOccurs="0" />
+              <xs:element name="CountMECH" msprop:Generator_ColumnVarNameInTable="columnCountMECH" msprop:Generator_ColumnPropNameInRow="CountMECH" msprop:Generator_ColumnPropNameInTable="CountMECHColumn" msprop:Generator_UserColumnName="CountMECH" type="xs:string" minOccurs="0" />
+              <xs:element name="CountMONITOR" msprop:Generator_ColumnVarNameInTable="columnCountMONITOR" msprop:Generator_ColumnPropNameInRow="CountMONITOR" msprop:Generator_ColumnPropNameInTable="CountMONITORColumn" msprop:Generator_UserColumnName="CountMONITOR" type="xs:string" minOccurs="0" />
+              <xs:element name="CountLL" msprop:Generator_ColumnVarNameInTable="columnCountLL" msprop:Generator_ColumnPropNameInRow="CountLL" msprop:Generator_ColumnPropNameInTable="CountLLColumn" msprop:Generator_UserColumnName="CountLL" type="xs:string" minOccurs="0" />
+              <xs:element name="CountQC" msprop:Generator_ColumnVarNameInTable="columnCountQC" msprop:Generator_ColumnPropNameInRow="CountQC" msprop:Generator_ColumnPropNameInTable="CountQCColumn" msprop:Generator_UserColumnName="CountQC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LineIncentiveSummaryDataSet_1" targetNamespace="http://tempuri.org/LineIncentiveSummaryDataSet_1.xsd" xmlns:mstns="http://tempuri.org/LineIncentiveSummaryDataSet_1.xsd" xmlns="http://tempuri.org/LineIncentiveSummaryDataSet_1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LineIncentiveSummaryDataSet_1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LineIncentiveSummaryDataSet_1" msprop:Generator_UserDSName="LineIncentiveSummaryDataSet_1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LineIncentiveSummaryTable" msprop:Generator_TableClassName="LineIncentiveSummaryTableDataTable" msprop:Generator_TableVarName="tableLineIncentiveSummaryTable" msprop:Generator_TablePropName="LineIncentiveSummaryTable" msprop:Generator_RowDeletingName="LineIncentiveSummaryTableRowDeleting" msprop:Generator_RowChangingName="LineIncentiveSummaryTableRowChanging" msprop:Generator_RowEvHandlerName="LineIncentiveSummaryTableRowChangeEventHandler" msprop:Generator_RowDeletedName="LineIncentiveSummaryTableRowDeleted" msprop:Generator_UserTableName="LineIncentiveSummaryTable" msprop:Generator_RowChangedName="LineIncentiveSummaryTableRowChanged" msprop:Generator_RowEvArgName="LineIncentiveSummaryTableRowChangeEvent" msprop:Generator_RowClassName="LineIncentiveSummaryTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumberOf" msprop:Generator_ColumnVarNameInTable="columnNumberOf" msprop:Generator_ColumnPropNameInRow="NumberOf" msprop:Generator_ColumnPropNameInTable="NumberOfColumn" msprop:Generator_UserColumnName="NumberOf" type="xs:int" minOccurs="0" />
+              <xs:element name="WorkerId" msprop:Generator_ColumnVarNameInTable="columnWorkerId" msprop:Generator_ColumnPropNameInRow="WorkerId" msprop:Generator_ColumnPropNameInTable="WorkerIdColumn" msprop:Generator_UserColumnName="WorkerId" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Position" msprop:Generator_ColumnVarNameInTable="columnPosition" msprop:Generator_ColumnPropNameInRow="Position" msprop:Generator_ColumnPropNameInTable="PositionColumn" msprop:Generator_UserColumnName="Position" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfDayAbsent" msprop:Generator_ColumnVarNameInTable="columnNumberOfDayAbsent" msprop:Generator_ColumnPropNameInRow="NumberOfDayAbsent" msprop:Generator_ColumnPropNameInTable="NumberOfDayAbsentColumn" msprop:Generator_UserColumnName="NumberOfDayAbsent" type="xs:int" minOccurs="0" />
+              <xs:element name="Incentive" msprop:Generator_ColumnVarNameInTable="columnIncentive" msprop:Generator_ColumnPropNameInRow="Incentive" msprop:Generator_ColumnPropNameInTable="IncentiveColumn" msprop:Generator_UserColumnName="Incentive" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

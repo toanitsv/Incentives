@@ -1,0 +1,23 @@
+﻿<Window x:Class="SewingIncentives.Views.SelectSectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sewing Incentives - Select Section" Height="100" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="ToolWindow" Loaded="Window_Loaded">
+    <Grid Background="LightGray">
+        <Grid VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Section:" VerticalAlignment="Bottom" FontWeight="Bold"/>
+            <ComboBox x:Name="cboSection" Grid.Column="1" Margin="5,0,0,0"  DisplayMemberPath="Name" SelectedValuePath="SectionId"/>
+            <Button x:Name="btnOk" Grid.Column="2" Grid.RowSpan="2" Content="OK" Margin="10,0,0,0" Width="75" Background="RoyalBlue" Foreground="White" FontWeight="Bold" IsDefault="True" Click="btnOk_Click" />
+            <TextBlock Grid.Row="1" Text="Password:" VerticalAlignment="Bottom"/>
+            <PasswordBox x:Name="txtPassword" Grid.Column="1" Grid.Row="1" Margin="5,5,0,0" PasswordChar="*" ToolTip="Call Software Creator to Get Password!"/>
+        </Grid>
+    </Grid>
+</Window>

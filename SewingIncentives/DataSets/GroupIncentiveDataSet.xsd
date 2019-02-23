@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GroupIncentiveDataSet" targetNamespace="http://tempuri.org/GroupIncentiveDataSet.xsd" xmlns:mstns="http://tempuri.org/GroupIncentiveDataSet.xsd" xmlns="http://tempuri.org/GroupIncentiveDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GroupIncentiveDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="GroupIncentiveDataSet" msprop:Generator_UserDSName="GroupIncentiveDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GroupIncentiveTable" msprop:Generator_TableClassName="GroupIncentiveTableDataTable" msprop:Generator_TableVarName="tableGroupIncentiveTable" msprop:Generator_TablePropName="GroupIncentiveTable" msprop:Generator_RowDeletingName="GroupIncentiveTableRowDeleting" msprop:Generator_RowChangingName="GroupIncentiveTableRowChanging" msprop:Generator_RowEvHandlerName="GroupIncentiveTableRowChangeEventHandler" msprop:Generator_RowDeletedName="GroupIncentiveTableRowDeleted" msprop:Generator_UserTableName="GroupIncentiveTable" msprop:Generator_RowChangedName="GroupIncentiveTableRowChanged" msprop:Generator_RowEvArgName="GroupIncentiveTableRowChangeEvent" msprop:Generator_RowClassName="GroupIncentiveTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Line" msprop:Generator_ColumnVarNameInTable="columnLine" msprop:Generator_ColumnPropNameInRow="Line" msprop:Generator_ColumnPropNameInTable="LineColumn" msprop:Generator_UserColumnName="Line" type="xs:string" minOccurs="0" />
+              <xs:element name="IncentiveGrade" msprop:Generator_ColumnVarNameInTable="columnIncentiveGrade" msprop:Generator_ColumnPropNameInRow="IncentiveGrade" msprop:Generator_ColumnPropNameInTable="IncentiveGradeColumn" msprop:Generator_UserColumnName="IncentiveGrade" type="xs:string" minOccurs="0" />
+              <xs:element name="Count" msprop:Generator_ColumnVarNameInTable="columnCount" msprop:Generator_ColumnPropNameInRow="Count" msprop:Generator_ColumnPropNameInTable="CountColumn" msprop:Generator_UserColumnName="Count" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

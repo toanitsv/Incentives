@@ -1,0 +1,20 @@
+﻿SewingIncentives
+
+
+winexe
+C#
+.cs
+E:\SV PROJECT\SWO\Assembly\1.18.03.23\SewingIncentives\obj\x86\Debug\
+SewingIncentives
+none
+false
+DEBUG;TRACE
+
+25-784164010
+
+92306423565
+22-1611392612
+App.xaml;MainWindow.xaml;Views\AssemblyReportIncentivesWindow.xaml;Views\AssemblyRequestIncentiveWindow.xaml;Views\AssemblySpecialPrintWindow.xaml;Views\AttendanceWindow.xaml;Views\AttendancePrintWindow.xaml;Views\ChangeCardIdWindow.xaml;Views\ChangeWorkerIdWindow.xaml;Views\DayLeaveSummaryWindow.xaml;Views\GroupIncentivePrintWindow.xaml;Views\ImportAssemblyIncentiveWindow.xaml;Views\LineIncentiveSummaryDetailWindow.xaml;Views\LineIncentiveSummaryPrintWindow.xaml;Views\LineIncentiveSummaryWindow.xaml;Views\OtherPositionListPrintWindow.xaml;Views\OtherPositionPrintWindow.xaml;Views\ExcessWorkerPrintWindow.xaml;Views\LinePerformancePrintWindow.xaml;Views\LinePerformanceWindow.xaml;Views\LineSummaryPrintWindow.xaml;Views\RequestListWindow.xaml;Views\SelectSectionWindow.xaml;Views\SpecialTransferWindow.xaml;Views\WorkerLeaveWindow.xaml;
+
+False
+

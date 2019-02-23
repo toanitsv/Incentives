@@ -1,0 +1,414 @@
+﻿<Window x:Class="SewingIncentives.Views.LinePerformanceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sewing Incentives - Line Performance" 
+        Height="500" Width="Auto"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResize" Loaded="Window_Loaded" WindowState="Maximized">
+    <Grid Background="LightGray">
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="LINE PERFORMANCE" TextAlignment="Center" FontSize="20" FontWeight="Bold"/>
+            <Grid Grid.Row="2" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.Column="0" HorizontalAlignment="Left">
+                    <TextBlock Text="W.Hrs:" VerticalAlignment="Bottom"/>
+                    <TextBox x:Name="lblWHRS" Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Bottom" FontSize="15" HorizontalAlignment="Left" Width="60" IsEnabled="False"/>
+                    <TextBox x:Name="lblWHRSAfter" Margin="5,0,0,0" Foreground="Red" FontWeight="Bold" VerticalAlignment="Bottom" FontSize="15" HorizontalAlignment="Left" Width="60" IsEnabled="False" Visibility="Collapsed"/>
+                    <Button x:Name="btnRepairWHrs" Content="Edit" Click="btnRepairWHrs_Click" IsEnabled="False" />
+                    <Button x:Name="btnRefresh" Content="Reload" FontWeight="Bold" Margin="2,0,0,0" IsEnabled="False" Visibility="Collapsed" Click="btnRefresh_Click" />
+                    <TextBlock Text="PPH:" VerticalAlignment="Bottom" Margin="20,0,0,0"/>
+                    <TextBlock x:Name="lblPPH" Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Bottom" FontSize="15"/>
+                    <TextBlock Text="Quota Target:" VerticalAlignment="Bottom" Margin="10,0,0,0"/>
+                    <TextBox x:Name="txtQuotaTarget" MinWidth="80" Margin="5,0,0,0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Bottom" FontSize="15"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Center">
+                    <Button  Grid.Row="0" Width="100" x:Name="btnExcessIncentiveAll" Content="for All" Background="RoyalBlue" Foreground="White" FontWeight="Bold" Click="btnExcessIncentiveAll_Click" Visibility="Collapsed"/>
+                    <Button Grid.Row="1" x:Name="btnExcessIncentiveManual" Width="150" Content="Enable Manual" Background="RoyalBlue" Foreground="White" FontWeight="Bold" Click="btnExcessIncentiveManual_Click" Margin="10,0,0,0"/>
+                    <TextBlock Text="Excess Incentive Total:" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    <TextBlock x:Name="lblExcessIncentive" Margin="10,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock Text="đ" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="Line:" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="cboLineId" Margin="5,0,0,0" MinWidth="50" IsEnabled="False" SelectionChanged="cboLineId_SelectionChanged" DisplayMemberPath="Name" SelectedValuePath="LineId"/>
+                    <TextBlock Margin="5,0,0,0" Text="Date:" VerticalAlignment="Center"/>
+                    <DatePicker x:Name="dpDate" Margin="5,0,0,0" SelectedDate="2000-1-1"/>
+                    <Button x:Name="btnLoad" Margin="5,0,0,0" Content="=>" FontWeight="Bold" Click="btnLoad_Click" />
+                </StackPanel>
+            </Grid>
+            <Grid x:Name="gridGrade" Grid.Row="3" Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <GroupBox Header="Total" Grid.Column="0" BorderBrush="Black" FontWeight="Bold" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Orientation="Horizontal">
+                            <TextBlock Text="Output:" VerticalAlignment="Bottom" MinWidth="50"/>
+                            <TextBox x:Name="txtOutput" MinWidth="100" BorderBrush="Black" Margin="5,0,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,5,0,0">
+                            <TextBlock MinWidth="50" Text="Article:" VerticalAlignment="Bottom"/>
+                            <TextBox x:Name="txtArticleNo" MinWidth="100" CharacterCasing="Upper" BorderBrush="Black" Margin="5,0,0,0" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,5,0,0">
+                            <TextBlock MinWidth="50" Text="PM:" VerticalAlignment="Bottom"/>
+                            <TextBox x:Name="txtPatternNo" MinWidth="100" CharacterCasing="Upper" BorderBrush="Black" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="PM1" Grid.Column="0" BorderBrush="Black" MinWidth="170">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="PM:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtPatternNoPM1" CharacterCasing="Upper"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Output:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtOutputPM1"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Incentive(đ)" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" x:Name="txtIncentivePM1" Grid.Column="1" CharacterCasing="Upper" />
+                            </Grid>
+                        </Grid>
+                    </GroupBox>
+                    <Button Width="18" x:Name="btnPM2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Content="+" FontWeight="Bold" FontSize="15" Margin="0,8,0,0" Click="btnPM2_Click"/>
+                    <GroupBox x:Name="groupPM2" Header="PM2" Grid.Column="2" Visibility="Collapsed" BorderBrush="Black" MinWidth="170">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="PM:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtPatternNoPM2" CharacterCasing="Upper"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Output:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtOutputPM2"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Incentive(đ)" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" x:Name="txtIncentivePM2" Grid.Column="1" CharacterCasing="Upper" />
+                            </Grid>
+                        </Grid>
+                    </GroupBox>
+                    <Button Visibility="Collapsed" Width="18" x:Name="btnPM3" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Top" Content="+" FontWeight="Bold" FontSize="15" Margin="0,8,0,0" Click="PM3_Click"/>
+                    <GroupBox x:Name="groupPM3" Header="PM3" Grid.Column="4" Visibility="Collapsed" BorderBrush="Black" MinWidth="170">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="PM:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtPatternNoPM3" CharacterCasing="Upper"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Output:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtOutputPM3"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Incentive(đ)" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" x:Name="txtIncentivePM3" Grid.Column="1" CharacterCasing="Upper" />
+                            </Grid>
+                        </Grid>
+                    </GroupBox>
+                    <Button Visibility="Collapsed" Width="18" x:Name="btnPM4" Grid.Column="5" HorizontalAlignment="Left" VerticalAlignment="Top" Content="+" FontWeight="Bold" FontSize="15" Margin="0,8,0,0" Click="btnPM4_Click"/>
+                    <GroupBox x:Name="groupPM4" Header="PM4" Grid.Column="6" Visibility="Collapsed" BorderBrush="Black" MinWidth="170">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="PM:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtPatternNoPM4" CharacterCasing="Upper"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Output:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtOutputPM4"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Incentive(đ)" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" x:Name="txtIncentivePM4" Grid.Column="1" CharacterCasing="Upper" />
+                            </Grid>
+                        </Grid>
+                    </GroupBox>
+                    <Button Visibility="Collapsed" Width="18" x:Name="btnPM5" Grid.Column="7" HorizontalAlignment="Left" VerticalAlignment="Top" Content="+" FontWeight="Bold" FontSize="15" Margin="0,8,0,0" Click="btnPM5_Click"/>
+                    <GroupBox x:Name="groupPM5" Header="PM5" Grid.Column="8" Visibility="Collapsed" BorderBrush="Black" MinWidth="170">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="PM:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtPatternNoPM5" CharacterCasing="Upper"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Output:" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" Grid.Column="1" x:Name="txtOutputPM5"/>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0,5,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="70"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Incentive(đ)" VerticalAlignment="Bottom"/>
+                                <TextBox BorderBrush="Black" x:Name="txtIncentivePM5" Grid.Column="1" CharacterCasing="Upper" />
+                            </Grid>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+                <GroupBox Header="Incentive" Grid.Column="2" HorizontalAlignment="Right" Width="200" BorderBrush="Black">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="20"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="(A)Incentive(đ):" VerticalAlignment="Bottom"/>
+                            <TextBox MinWidth="80" BorderBrush="Black" Grid.Column="1" x:Name="txtIncentiveGradeA"/>
+                            <Button Grid.Column="2" x:Name="btnIncentiveGradeLegend" Margin="2,0,0,0" Content=" * " Click="btnIncentiveGradeLegend_Click"/>
+                        </Grid>
+                        <Grid Grid.Row="1" Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="20"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="(a)Incentive(đ):" VerticalAlignment="Bottom"/>
+                            <TextBox BorderBrush="Black" MinWidth="80" Grid.Column="1" x:Name="txtIncentiveGradeALower"/>
+                        </Grid>
+                        <Grid Grid.Row="2" Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="20"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="QC Reported:" VerticalAlignment="Bottom"/>
+                            <TextBox BorderBrush="Black" MinWidth="80" Grid.Column="1" x:Name="txtQCReportedHrs" Grid.Row="2" />
+                            <TextBlock Grid.Column="2" Text="Hrs" VerticalAlignment="Bottom"/>
+                        </Grid>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+            <DataGrid x:Name="dgLinePerformance" Grid.Row="4" Margin="0,10,0,0" AutoGenerateColumns="False" CanUserAddRows="False" FrozenColumnCount="2" SelectionUnit="CellOrRowHeader"
+                  HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray" CellEditEnding="dgLinePerformance_CellEditEnding">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="miTransferTo" Header="Transfer to">
+                        </MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Width="Auto" Binding="{Binding WorkerId}" FontWeight="Bold" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Name" Width="Auto" Binding="{Binding Name}" FontWeight="Bold" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Line" Width="Auto" Binding="{Binding Line}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Position" Width="Auto" Binding="{Binding Position}" IsReadOnly="True"/>
+                    <DataGridComboBoxColumn x:Name="colOthersPosition" Header="Others Position" Width="Auto" SelectedItemBinding="{Binding OthersPosition}"/>
+                    <DataGridTextColumn Header="Actual TimeIn" Width="Auto" Binding="{Binding TimeIn}" IsReadOnly="True"/>
+                    <DataGridComboBoxColumn x:Name="colAdjustTimeIn" Header="Adjust TimeIn" Width="Auto" SelectedItemBinding="{Binding AdjustTimeIn, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="False"/>
+                    <DataGridTextColumn Header="Actual TimeOut" Width="Auto" Binding="{Binding TimeOut}" IsReadOnly="True"/>
+                    <DataGridComboBoxColumn x:Name="colAdjustTimeOut" Header="Adjust TimeOut" Width="Auto" SelectedItemBinding="{Binding AdjustTimeOut}"/>
+                    <DataGridTextColumn Header="Work Hour" Width="Auto" Binding="{Binding WorkHour}" IsReadOnly="True"/>
+                    <DataGridComboBoxColumn x:Name="colICGrade" DisplayMemberPath="Name" SelectedValuePath="Ratio" Header="IC Grade" Width="Auto" SelectedItemBinding="{Binding IncentiveGrade}" CanUserSort="False"/>
+                    <DataGridTextColumn Header="Incentive" Width="Auto" Binding="{Binding Incentive}" IsReadOnly="True"/>
+                    <DataGridTextColumn x:Name="colExcessIncentive" Header="Excess Incentive" Width="Auto" Binding="{Binding ExcessIncentive, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Specs Incentive" Width="Auto" Binding="{Binding SpecsIncentive}"/>
+                    <DataGridTextColumn Header="Cumulative Incentive" Width="Auto" Binding="{Binding CumulativeIncentive}" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Grid Grid.Row="5" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Margin="0,0,5,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="SUP:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="2" Margin="10,0,0,0" Text="MECH:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="4" Margin="10,0,0,0" Text="MONITOR:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="1" Margin="0,5,0,0" Text="LL:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="2" Grid.Row="1" Margin="10,5,0,0" Text="QC:" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="lblCountSUP" Grid.Column="1" Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCountMECH" Grid.Column="3" Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15" />
+                    <TextBlock x:Name="lblCountMONITOR" Grid.Column="5"  Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCountLL" Grid.Column="1" Grid.Row="1" Margin="5,5,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCountQC" Grid.Column="3" Grid.Row="1" Margin="5,5,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                </Grid>
+                <Grid Grid.Column="1" Margin="5,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="New Worker:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="2" Margin="10,0,0,0" Text=">2 Months:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="4" Margin="10,0,0,0" Text="MP:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="1" Margin="0,5,0,0" Text=">1 Month:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="2" Grid.Row="1" Margin="10,5,0,0" Text="Old Worker:" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Column="4" Grid.Row="1" Margin="10,5,0,0" Text="Total:" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="lblCountNewWorker" Grid.Column="1" Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCount2Months" Grid.Column="3" Margin="5,0,0,0" Text="0"  Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCountTotalMP" Grid.Column="5"  Margin="5,0,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCount1Month" Grid.Column="1" Grid.Row="1" Margin="5,5,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCountOldWorker" Grid.Column="3" Grid.Row="1" Margin="5,5,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                    <TextBlock x:Name="lblCountTotalWorker" Grid.Column="5" Grid.Row="1" Margin="5,5,0,0" Text="0" Foreground="RoyalBlue" FontWeight="Bold" VerticalAlignment="Center" FontSize="15"/>
+                </Grid>
+            </Grid>
+            <StackPanel Grid.Row="6" Margin="0,5,0,0" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="btnCalculateIncentive" Width="130" Content="Calculate Incentive" Background="RoyalBlue" Foreground="White" FontWeight="Bold" Click="btnCalculateIncentive_Click" IsEnabled="False"/>
+                <Button x:Name="btnCaculate" Width="200" Content="Calculate Performance" Background="RoyalBlue" Foreground="White" FontWeight="Bold" Click="btnCaculate_Click" IsEnabled="False" Margin="10,0,0,0"/>
+                <Button x:Name="btnSave" Width="100" Margin="10,0,0,0" Content="Save" Background="RoyalBlue" Foreground="White" FontWeight="Bold" IsEnabled="False" Click="btnSave_Click" />
+                <Button x:Name="btnPrint" Width="100" Margin="10,0,0,0" Content="Print" Background="RoyalBlue" Foreground="White" FontWeight="Bold" Click="btnPrint_Click" />
+            </StackPanel>
+            <Popup x:Name="popupIncentiveGradeLegend" PlacementTarget="{Binding ElementName=txtIncentiveGradeA}" StaysOpen="False">
+                <ListView x:Name="lvIncentiveGrade">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Name:"/>
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                                <TextBlock Text=", " />
+                                <TextBlock Text="Level:"/>
+                                <TextBlock Text="{Binding Ratio}" FontWeight="Bold"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Popup>
+        </Grid>
+    </Grid>
+</Window>
